@@ -3,3 +3,4 @@ pandas
 numpy
 dvc
 PyYAML
+mlflow==2.2.2
