@@ -1,0 +1,22 @@
+artifact_path: /home/davidmouquet/Bureau/devops-mooc/03-experiment_tracking/mlruns/2/models/m-dfebe97edc65417ea6646d222936da4a/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.18
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 3.0.5
+mlflow_version: 3.4.0
+model_id: m-dfebe97edc65417ea6646d222936da4a
+model_size_bytes: 93624
+model_uuid: m-dfebe97edc65417ea6646d222936da4a
+prompts: null
+run_id: cd7fcab70b5048bfa88b7ff3940c6e22
+utc_time_created: '2025-09-26 11:15:19.615645'

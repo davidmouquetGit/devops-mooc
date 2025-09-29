@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/347351173979578725/d7b8b640958943ee8ad2cb0d7c011778/artifacts
+end_time: 1758877042916
+entry_point_name: ''
+experiment_id: '347351173979578725'
+lifecycle_stage: active
+run_id: d7b8b640958943ee8ad2cb0d7c011778
+run_name: classy-doe-26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758877040905
+status: 3
+tags: []
+user_id: davidmouquet

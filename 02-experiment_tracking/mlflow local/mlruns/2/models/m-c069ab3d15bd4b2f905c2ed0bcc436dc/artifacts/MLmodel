@@ -1,0 +1,22 @@
+artifact_path: /home/davidmouquet/Bureau/devops-mooc/03-experiment_tracking/mlruns/2/models/m-c069ab3d15bd4b2f905c2ed0bcc436dc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-c069ab3d15bd4b2f905c2ed0bcc436dc
+model_size_bytes: 106300
+model_uuid: m-c069ab3d15bd4b2f905c2ed0bcc436dc
+prompts: null
+run_id: a58c8d6a43f2411fba98cf04fcb9de7d
+utc_time_created: '2025-09-26 12:25:15.179220'
