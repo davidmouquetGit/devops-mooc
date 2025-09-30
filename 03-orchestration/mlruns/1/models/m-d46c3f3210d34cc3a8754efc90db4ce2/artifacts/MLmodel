@@ -1,0 +1,32 @@
+artifact_path: /home/davidmouquet/Bureau/devops-mooc/03-orchestration/mlruns/1/models/m-d46c3f3210d34cc3a8754efc90db4ce2/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.18
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 3.0.5
+is_signature_from_type_hint: false
+mlflow_version: 3.4.0
+model_id: m-d46c3f3210d34cc3a8754efc90db4ce2
+model_size_bytes: 2858225
+model_uuid: m-d46c3f3210d34cc3a8754efc90db4ce2
+prompts: null
+run_id: f1ca8c48c80e4f6ab184c59c08def927
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: sparse_matrix_csr
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 13221]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-09-30 12:34:59.027323'
